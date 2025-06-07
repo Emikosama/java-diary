@@ -15,7 +15,15 @@ import java.util.*;
  * 4. 面向对象的封装方法
  * 5. 集合的使用
  */
-
+/*main 0
+* |    |     |    |
+* show add  del  esc 1
+* | |  |  |  | |  |  |
+*                      2
+* level = 0;
+* row = xxx;
+* map[show,(1,1),add,(1,2),del,(1,3)]
+* */
 public class mainDemo {
     static ArrayList<String> bookList = BookLibrary.getBookList();
     //获取用户输入
