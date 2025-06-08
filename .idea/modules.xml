@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LaomaBookShop.iml" filepath="$PROJECT_DIR$/LaomaBookShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LaomaBookShop_IORebuild.iml" filepath="$PROJECT_DIR$/LaomaBookShop_IORebuild.iml" />
     </modules>
   </component>
 </project>

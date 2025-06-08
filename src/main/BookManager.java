@@ -3,7 +3,7 @@ package main;
 import java.util.ArrayList;
 
 public class BookManager {
-    private static final ArrayList<Book> bookList = new ArrayList<>();
+    public static ArrayList<Book> bookList = new ArrayList<>();
 
     public static void addBook(Book book) {
         bookList.add(book);

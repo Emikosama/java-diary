@@ -1,9 +1,11 @@
 package main;
 
+import java.io.Serializable;
+
 /**
  * 书籍信息
  */
-public class Book {
+public class Book implements Serializable {
     private String bookName;
     private String authorName;
     private String press;            //出版社

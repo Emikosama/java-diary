@@ -74,8 +74,6 @@ public class LaomaCore {
 
     public static void main(String[] arg) throws InterruptedException {
         io.readRecord();
-
-
         int choice = -1;
         while (!exit) {
             TypeWriter.typeWriter(menuManager());
@@ -109,6 +107,7 @@ public class LaomaCore {
                         case 4:
                             exit = true;
                             TypeWriter.typeWriter("溜了溜了....");
+                            io.saveRecord();
                             break;
                     }
 
